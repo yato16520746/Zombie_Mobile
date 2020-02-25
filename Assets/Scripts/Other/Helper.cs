@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Tags
 {
-    public static string Player_Attack = "Player Attack";
-    public static string Enemy = "Enemy";
+    public static readonly string Player_Attack = "Player Attack";
+    public static readonly string Enemy = "Enemy";
+    public static readonly string Wall = "Wall";
 }

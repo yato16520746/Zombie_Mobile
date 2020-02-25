@@ -10,6 +10,7 @@ public abstract class Monster : MonoBehaviour
     [Header("Property")]
     [SerializeField] protected float _moveSpeed;
     [SerializeField] protected MonsterWave _monsterWave;
+
     [SerializeField] int _maxHealth = 1;
     int _currentHealth;
 
@@ -34,6 +35,8 @@ public abstract class Monster : MonoBehaviour
         if (other.tag == Tags.Player_Attack)
         {
             _currentHealth -= 1;
+            HitEffect();
+
             if (_currentHealth <= 0)
             {
                 Create_Ragdoll();
@@ -46,7 +49,14 @@ public abstract class Monster : MonoBehaviour
 
     private void OnDestroy()
     {
-        //if (_monsterWave)
+        if (_monsterWave)
             _monsterWave.OnAMonsterDestroy();
+        else
+            Debug.Log("BUG! Monster is not belong to any Wave.");
+    }
+
+    protected virtual void HitEffect()
+    {
+
     }
 }
