@@ -555,10 +555,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.054526515
-  m_Height: 0.26865476
+  m_Radius: 0.056293264
+  m_Height: 0.2975589
   m_Direction: 0
-  m_Center: {x: -0.13432738, y: -9.638071e-10, z: -0.017090276}
+  m_Center: {x: -0.12693109, y: -0.0000000011842369, z: -0.01532353}
 --- !u!54 &1286193267979208218
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -597,14 +597,14 @@ CharacterJoint:
     bounciness: 0
     contactDistance: 0
   m_HighTwistLimit:
-    limit: 18
+    limit: 5
     bounciness: 0
     contactDistance: 0
   m_SwingLimitSpring:
     spring: 0
     damper: 0
   m_Swing1Limit:
-    limit: 20
+    limit: 10
     bounciness: 0
     contactDistance: 0
   m_Swing2Limit:
@@ -1004,10 +1004,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.054526515
-  m_Height: 0.26865476
+  m_Radius: 0.056293264
+  m_Height: 0.2975589
   m_Direction: 0
-  m_Center: {x: -0.13432738, y: -9.638071e-10, z: 0.01709028}
+  m_Center: {x: -0.12693109, y: -0.0000000011842369, z: 0.015323532}
 --- !u!54 &1286193267979208274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1046,14 +1046,14 @@ CharacterJoint:
     bounciness: 0
     contactDistance: 0
   m_HighTwistLimit:
-    limit: 18
+    limit: 5
     bounciness: 0
     contactDistance: 0
   m_SwingLimitSpring:
     spring: 0
     damper: 0
   m_Swing1Limit:
-    limit: 20
+    limit: 10
     bounciness: 0
     contactDistance: 0
   m_Swing2Limit:
@@ -1406,10 +1406,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.04213808
-  m_Height: 0.21372452
+  m_Radius: 0.043989185
+  m_Height: 0.20976514
   m_Direction: 0
-  m_Center: {x: -0.10686226, y: -0.0000000017823286, z: -0.0037988366}
+  m_Center: {x: -0.102852516, y: -0.000000001901828, z: -0.005649942}
 --- !u!54 &1286193267979208292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2238,8 +2238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshGOs:
   - {fileID: 1286193267979208623}
-  count_Destroy: 8
-  _effectTime: 5
+  _countExist: 2
+  _effectTime: 0.3
 --- !u!1 &1286193267979208623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2753,10 +2753,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.04213808
-  m_Height: 0.20958494
+  m_Radius: 0.043989185
+  m_Height: 0.20976514
   m_Direction: 0
-  m_Center: {x: -0.10479247, y: -0.0000000018440126, z: 0.003798835}
+  m_Center: {x: -0.102852516, y: -0.000000001901828, z: 0.005649942}
 --- !u!54 &1286193267979208636
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -8,3 +8,10 @@ public class Tags
     public static readonly string Enemy = "Enemy";
     public static readonly string Wall = "Wall";
 }
+
+public enum eDirection
+{
+    GoLeft,
+    GoStraight,
+    GoRight
+}

@@ -33,7 +33,7 @@ public class Golem : Monster
     {
         GameObject ragdoll = Instantiate(_ragdollPref, _graphicRoot.position, _graphicRoot.rotation);
         Ragdoll mumRagdoll = ragdoll.GetComponent<Ragdoll>();
-        mumRagdoll.SetUp_Small(2f, _graphicRoot, true);
+        mumRagdoll.SetUp_NoPushForce(_graphicRoot);
     }
 
     protected override void HitEffect()

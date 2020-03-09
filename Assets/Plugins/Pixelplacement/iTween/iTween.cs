@@ -674,7 +674,10 @@ public class iTween : MonoBehaviour
 	/// <param name="oncompleteparams">
 	/// A <see cref="System.Object"/> for arguments to be sent to the "oncomplete" method.
 	/// </param>
-	public static void ColorTo(GameObject target, Hashtable args){	
+	public static void ColorTo(GameObject target, Hashtable args){
+        if (!target)
+            return;
+
 		//clean args:
 		args = iTween.CleanArgs(args);
 		

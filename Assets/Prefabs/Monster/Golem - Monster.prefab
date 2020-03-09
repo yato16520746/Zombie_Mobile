@@ -2093,7 +2093,7 @@ MonoBehaviour:
   _rb: {fileID: 161835560025983018}
   _moveSpeed: 3
   _monsterWave: {fileID: 0}
-  _maxHealth: 3
+  _maxHealth: 8
   _animator: {fileID: 161835559577300007}
   _ragdollPref: {fileID: 1286193267979208621, guid: 4323004e2b2067649ab0c9e0c9c8a4f7,
     type: 3}
@@ -2124,7 +2124,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2.2
+  m_Radius: 2.6
   m_Height: 11.6
   m_Direction: 1
   m_Center: {x: 0, y: 5.8, z: 0}

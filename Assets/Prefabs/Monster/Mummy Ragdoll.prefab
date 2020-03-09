@@ -1217,6 +1217,8 @@ MonoBehaviour:
   - {fileID: 2731857710943635155}
   - {fileID: 2731857710943635157}
   - {fileID: 2731857710943635153}
+  _countExist: 1.5
+  _effectTime: 0.3
 --- !u!1 &2731857710943635169
 GameObject:
   m_ObjectHideFlags: 0

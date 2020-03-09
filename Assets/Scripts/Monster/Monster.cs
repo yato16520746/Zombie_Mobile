@@ -35,12 +35,15 @@ public abstract class Monster : MonoBehaviour
         if (other.tag == Tags.Player_Attack)
         {
             _currentHealth -= 1;
-            HitEffect();
 
             if (_currentHealth <= 0)
             {
                 Create_Ragdoll();
                 Destroy(gameObject);
+            }
+            else
+            {
+                HitEffect();
             }
         }
     }
