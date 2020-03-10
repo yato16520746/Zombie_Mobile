@@ -8,6 +8,9 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] MonsterWave _currentMonsterWave;
     [SerializeField] List<MonsterWave> _monsterWaves; // manage many Monster Wave
 
+    [Header("UI mechanic")]
+    [SerializeField] bool _isLock = false;
+
     private void OnValidate()
     {
         _monsterWaves.Clear();
@@ -16,6 +19,7 @@ public class EnemyManager : MonoBehaviour
             _monsterWaves.Add(mw);
            
         }
+
         _currentMonsterWave = _monsterWaves[0];
     }
 
@@ -27,7 +31,8 @@ public class EnemyManager : MonoBehaviour
             mw.SetEnemyManager(this);
         }
 
-        _currentMonsterWave.gameObject.SetActive(true);
+        if (!_isLock)
+            _currentMonsterWave.gameObject.SetActive(true);
     }
 
     public void RemoveWave(MonsterWave monsterWave)
@@ -41,6 +46,16 @@ public class EnemyManager : MonoBehaviour
         else
         {
             Debug.Log("Level Completed");
+        }
+    }
+
+    public void Unlock()
+    {
+        if (_isLock)
+        {
+            _isLock = false;
+            _currentMonsterWave = _monsterWaves[0];
+            _currentMonsterWave.gameObject.SetActive(true);
         }
     }
 }

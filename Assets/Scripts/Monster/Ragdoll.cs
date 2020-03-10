@@ -89,7 +89,7 @@ public class Ragdoll : MonoBehaviour
                 float x = Random.Range(-3f, 3f);
                 float y = Random.Range(-2f, 0f);
                 float z = 0;
-                if (Random.Range(-1f, 1f) > 0)
+                if (Random.Range(-1f, 0.5f) > 0)
                 {
                     z = Random.Range(-10f, -5f);
                 }

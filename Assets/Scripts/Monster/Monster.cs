@@ -14,6 +14,8 @@ public abstract class Monster : MonoBehaviour
     [SerializeField] int _maxHealth = 1;
     int _currentHealth;
 
+    [SerializeField] GameObject _deathEffecetPref;
+
     protected virtual void Start()
     {
         _currentHealth = _maxHealth;
@@ -45,6 +47,21 @@ public abstract class Monster : MonoBehaviour
             {
                 HitEffect();
             }
+        }
+    }
+
+    public void AddDamage(Vector3 attackHitPoint)
+    {
+        _currentHealth -= 1;
+        if (_currentHealth <= 0)
+        {
+            Create_Ragdoll();
+            Instantiate(_deathEffecetPref, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+        else
+        {
+            HitEffect();
         }
     }
 

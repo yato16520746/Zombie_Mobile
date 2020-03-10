@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class LevelCanvas : MonoBehaviour
 {
+    [Header("For level have guild")]
+    [SerializeField] GameObject _guildThePlayer;
+    [SerializeField] EnemyManager _enemyManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +18,14 @@ public class LevelCanvas : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Destroy_GuildThePlayer()
+    {
+        if (_guildThePlayer)
+        {
+            Destroy(_guildThePlayer);
+            _enemyManager.Unlock();
+        }
     }
 }

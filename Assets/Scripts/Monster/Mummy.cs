@@ -13,6 +13,10 @@ public class Mummy : Monster
     [SerializeField] GameObject _ragdollPref;
     [SerializeField] Transform _graphicRoot;
 
+    [Header("Movement")]
+    [SerializeField] eDirection _eDirection;
+    Vector3 _direction = new Vector3(0, 0, -1);
+
     protected override void Start()
     {
         base.Start();
@@ -28,12 +32,24 @@ public class Mummy : Monster
                 material.SetColor("_Color", _myColor);
             }
         }
+
+        // set direction
+        if (_eDirection == eDirection.GoLeft)
+        {
+            _direction.x = Random.Range(-0.9f, -0.6f);
+            _moveSpeed *= 1.2f;
+        }
+        else if (_eDirection == eDirection.GoRight)
+        {
+            _direction.x = Random.Range(0.6f, 0.9f);
+            _moveSpeed *= 1.2f;
+        }
     }
 
     private void Update()
     {
         // apply velocity alway go down
-        _rb.velocity = new Vector3(0, 0, -1) * _moveSpeed;
+        _rb.velocity = _direction.normalized * _moveSpeed;
     }
 
 

@@ -46,3 +46,4 @@ MonoBehaviour:
   _boomPrefab: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
   _range: 30
   _shootableMask: 8
+  _moneyText: {fileID: 0}

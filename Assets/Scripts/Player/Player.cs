@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,9 +12,23 @@ public class Player : MonoBehaviour
     Ray _touchRay;
     RaycastHit _touchHit;
 
+    [Header("Character property")]
+    [SerializeField] Text _moneyText;
+    int _money;
+
+    [SerializeField] List<Image> _healthImages;
+    int _health;
+
     private void Start()
     {
         _shootableMask = LayerMask.GetMask("CollideEnvironment");
+
+        // money
+        _money = PlayerPrefs.GetInt("Money");
+        _moneyText.text = _money.ToString();
+
+        // health
+        _health = _healthImages.Count;
     }
 
     void Update()
@@ -21,25 +36,12 @@ public class Player : MonoBehaviour
         // Player Tap
         if (Input.GetMouseButtonDown(0))
         {
-          
             _touchRay = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            //float hitDistance = 0;
-            //Plane plane = new Plane(Vector3.up, transform.position);
-            //if (plane.Raycast(touchRay, out hitDistance))
-            //{
-            //    Vector3 mousePosition = touchRay.GetPoint(hitDistance);
-
-            //    //if (mousePosition.x >= leftMargin && mousePosition.x <= rightMargin)
-            //    {
-            //        Instantiate(_boomPrefab, new Vector3(mousePosition.x, 0.5f, mousePosition.z), Quaternion.identity);
-            //    }       
-            //}
 
             if (Physics.Raycast(_touchRay, out _touchHit, _range, _shootableMask))
             {
-                Debug.Log("Hit");
-                Instantiate(_boomPrefab, _touchHit.point, Quaternion.identity);
+                Monster monster = _touchHit.collider.gameObject.GetComponent<Monster>();
+                monster.AddDamage(_touchHit.point);
             }
         }
     }
@@ -47,5 +49,28 @@ public class Player : MonoBehaviour
     public void VibrateMyPhone()
     {
         Handheld.Vibrate();
+    }
+
+    public void AddDamage()
+    {
+        _health--;
+        if (_health >= 0)
+        {
+            Animator healthAnim = _healthImages[2 - _health].gameObject.GetComponent<Animator>();
+            healthAnim.SetTrigger("Break");
+        }
+
+        if (_health == 0)
+        {
+            Debug.Log("Lose!");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Enemy")
+        {
+            AddDamage();
+        }
     }
 }

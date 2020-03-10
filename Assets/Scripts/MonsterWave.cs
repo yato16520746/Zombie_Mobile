@@ -13,7 +13,7 @@ public class MonsterWave : MonoBehaviour
     [SerializeField] int _minMonsterAmount;
     [SerializeField] int _maxMonsterAmount;
     int _monsterAmount;
-    [SerializeField] int _stillAlive;
+    int _stillAlive;
 
     [SerializeField] int _maxMonsterInRow;
     [SerializeField] float _minTimeBetweenRows, _maxTimeBetweenRows;
