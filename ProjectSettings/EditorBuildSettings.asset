@@ -9,9 +9,30 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: e784e7d13e0bc754489ad28e02031c66
   - enabled: 1
-    path: Assets/Level 2.unity
+    path: Assets/Post Processing.unity
     guid: f1a889ba3692ee043b5ab461b770012b
   - enabled: 1
     path: Assets/Level 1.unity
     guid: 3ce963bf65513b84eb0b3f588c647dd2
+  - enabled: 1
+    path: Assets/Level 2.unity
+    guid: 1f5cb0a5a8254f241ad1f68922e2eba3
+  - enabled: 1
+    path: Assets/Level 3.unity
+    guid: a7cf920476dfbb4488812de32eb1cba8
+  - enabled: 1
+    path: Assets/Level 4.unity
+    guid: 9273bb86dee77774f866e1c5ca403fc6
+  - enabled: 1
+    path: Assets/Level 5.unity
+    guid: 02442291bb8375645af40d90e5b941c2
+  - enabled: 1
+    path: Assets/Level 6.unity
+    guid: 60ef15de7965d984596089c1edecfdec
+  - enabled: 1
+    path: Assets/Level 7.unity
+    guid: e2281c7d13420344790c0fb6ba85ef9a
+  - enabled: 1
+    path: Assets/Level 8.unity
+    guid: fa892b68dded50d4f91d8ac85f23efed
   m_configObjects: {}

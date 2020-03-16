@@ -16,6 +16,7 @@ public class Mummy : Monster
     [Header("Movement")]
     [SerializeField] eDirection _eDirection;
     Vector3 _direction = new Vector3(0, 0, -1);
+    [SerializeField] Animator _animator;
 
     protected override void Start()
     {
@@ -34,14 +35,14 @@ public class Mummy : Monster
         }
 
         // set direction
-        if (_eDirection == eDirection.GoLeft)
+        if (_eDirection == eDirection.GoLeft)   
         {
-            _direction.x = Random.Range(-0.9f, -0.6f);
+            _direction.x = Random.Range(-0.9f, -0.7f);
             _moveSpeed *= 1.2f;
         }
         else if (_eDirection == eDirection.GoRight)
         {
-            _direction.x = Random.Range(0.6f, 0.9f);
+            _direction.x = Random.Range(0.7f, 0.9f);
             _moveSpeed *= 1.2f;
         }
     }
@@ -50,6 +51,10 @@ public class Mummy : Monster
     {
         // apply velocity alway go down
         _rb.velocity = _direction.normalized * _moveSpeed;
+
+        // look rotation
+        Quaternion quaternion = Quaternion.LookRotation(_direction);
+        _animator.transform.rotation = Quaternion.Lerp(_animator.transform.rotation, quaternion, 3f * Time.deltaTime);
     }
 
 
@@ -66,4 +71,12 @@ public class Mummy : Monster
         mumRagdoll.SetUp(4f, _graphicRoot, _myColor);
     }
     #endregion
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == Tags.Wall)
+        {
+            _direction.x = -_direction.x;
+        }
+    }
 }

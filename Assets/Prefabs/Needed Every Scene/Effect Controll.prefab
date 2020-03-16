@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5264970204406572774}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11, y: 0, z: 33}
+  m_LocalPosition: {x: -11, y: 0, z: 23}
   m_LocalScale: {x: 0.5, y: 10, z: 100}
   m_Children: []
   m_Father: {fileID: 5264970205723132272}
@@ -173,7 +173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5264970204871244002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11, y: 0, z: 33}
+  m_LocalPosition: {x: 11, y: 0, z: 23}
   m_LocalScale: {x: 0.5, y: 10, z: 100}
   m_Children: []
   m_Father: {fileID: 5264970205723132272}
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 5264970205986477186}
   - component: {fileID: 5264970205986477181}
   m_Layer: 0
-  m_Name: Destroy Zone
+  m_Name: Destroy Enemy Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -251,7 +251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5264970205986477184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -14}
+  m_LocalPosition: {x: 0, y: 0, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5264970204854666351}

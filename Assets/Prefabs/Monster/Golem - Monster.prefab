@@ -2058,7 +2058,7 @@ GameObject:
   - component: {fileID: 161835560025983189}
   m_Layer: 8
   m_Name: Golem - Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2094,6 +2094,10 @@ MonoBehaviour:
   _moveSpeed: 3
   _monsterWave: {fileID: 0}
   _maxHealth: 8
+  _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+  _score: 10
+  _deadClips:
+  - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _animator: {fileID: 161835559577300007}
   _ragdollPref: {fileID: 1286193267979208621, guid: 4323004e2b2067649ab0c9e0c9c8a4f7,
     type: 3}

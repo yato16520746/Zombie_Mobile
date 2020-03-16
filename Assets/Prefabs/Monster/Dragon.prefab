@@ -3388,6 +3388,10 @@ MonoBehaviour:
   _moveSpeed: 5
   _monsterWave: {fileID: 0}
   _maxHealth: 1
+  _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+  _score: 10
+  _deadClips:
+  - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _animator: {fileID: 7235818791803005987}
   _ragdollPref: {fileID: 8042439473992662060, guid: 596ccd56ff7ab784b84659344d205c9a,
     type: 3}

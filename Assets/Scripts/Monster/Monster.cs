@@ -14,7 +14,11 @@ public abstract class Monster : MonoBehaviour
     [SerializeField] int _maxHealth = 1;
     int _currentHealth;
 
-    [SerializeField] GameObject _deathEffecetPref;
+    [SerializeField] protected GameObject _deathEffecetPref;
+
+    [Header("Interact with player")]
+    [SerializeField] int _score = 10;
+    [SerializeField] protected List<AudioClip> _deadClips;
 
     protected virtual void Start()
     {
@@ -50,13 +54,17 @@ public abstract class Monster : MonoBehaviour
         }
     }
 
-    public void AddDamage(Vector3 attackHitPoint)
+    public virtual void AddDamage(Vector3 attackHitPoint)
     {
         _currentHealth -= 1;
         if (_currentHealth <= 0)
         {
             Create_Ragdoll();
+            
+            // death effect
             Instantiate(_deathEffecetPref, transform.position, Quaternion.identity);
+
+            MainAudioSource.Instance.Play(_deadClips[Random.Range(0, _deadClips.Count)]);
             Destroy(gameObject);
         }
         else
@@ -65,10 +73,25 @@ public abstract class Monster : MonoBehaviour
         }
     }
 
+    public virtual void HitDeathSkill()
+    {
+        _currentHealth = 0;
+        Create_Ragdoll();
+
+        // death effect
+        Instantiate(_deathEffecetPref, transform.position, Quaternion.identity);
+
+        MainAudioSource.Instance.Play(_deadClips[Random.Range(0, _deadClips.Count)]);
+        HitEffect();
+        Destroy(gameObject);
+    }
+
     protected abstract void Create_Ragdoll();
 
     private void OnDestroy()
     {
+        Player.Instance.AddScore(_score);
+
         if (_monsterWave)
             _monsterWave.OnAMonsterDestroy();
         else

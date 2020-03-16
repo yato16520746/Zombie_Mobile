@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 756341673603838265}
   - component: {fileID: 756341673603838270}
   m_Layer: 8
-  m_Name: Mummy
+  m_Name: Mummy - Go Left
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.5
+  m_Radius: 1.6
   m_Height: 4
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
@@ -80,6 +80,10 @@ MonoBehaviour:
   _moveSpeed: 8
   _monsterWave: {fileID: 0}
   _maxHealth: 1
+  _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+  _score: 10
+  _deadClips:
+  - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _skinColors:
   - {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
   - {r: 0.7924528, g: 0.7333089, b: 0.6541474, a: 1}
@@ -94,6 +98,8 @@ MonoBehaviour:
   _ragdollPref: {fileID: 2731857710943635159, guid: 7ce496d3553a69443b86c58cd29075a3,
     type: 3}
   _graphicRoot: {fileID: 756341674165051880}
+  _eDirection: 0
+  _animator: {fileID: 756341674174074446}
 --- !u!1001 &756341674164665134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -161,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3.7
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 3353e4f866c39d043a315b41717c9bb7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ad8c5523f2b576b418ee719654ad4604, type: 2}
     - target: {fileID: 13700006, guid: 3353e4f866c39d043a315b41717c9bb7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -177,10 +187,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 30a9f5c8ac6483249a92e09c302f96f9, type: 2}
-    - target: {fileID: 9500000, guid: 3353e4f866c39d043a315b41717c9bb7, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ad8c5523f2b576b418ee719654ad4604, type: 2}
     - target: {fileID: 2300000, guid: 3353e4f866c39d043a315b41717c9bb7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -190,6 +196,12 @@ PrefabInstance:
 --- !u!4 &756341674165051880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400070, guid: 3353e4f866c39d043a315b41717c9bb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 756341674164665134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &756341674174074446 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 3353e4f866c39d043a315b41717c9bb7,
     type: 3}
   m_PrefabInstance: {fileID: 756341674164665134}
   m_PrefabAsset: {fileID: 0}

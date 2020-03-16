@@ -26,7 +26,7 @@ public class Dragon : Monster
     {
         base.Start();
 
-        _timeChangeDir = Random.Range(12f, 32f) / _moveSpeed;
+        _timeChangeDir = Random.Range(10f, 24f) / _moveSpeed;
     }
 
     protected override void OnValidate()

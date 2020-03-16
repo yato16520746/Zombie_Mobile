@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class EnemyManager : MonoBehaviour
 
     [Header("UI mechanic")]
     [SerializeField] bool _isLock = false;
+    [SerializeField] Slider _waveSlider;
+    float _waveValue;
 
     private void OnValidate()
     {
@@ -17,7 +20,6 @@ public class EnemyManager : MonoBehaviour
         foreach (MonsterWave mw in GetComponentsInChildren<MonsterWave>(true))
         {
             _monsterWaves.Add(mw);
-           
         }
 
         _currentMonsterWave = _monsterWaves[0];
@@ -33,11 +35,28 @@ public class EnemyManager : MonoBehaviour
 
         if (!_isLock)
             _currentMonsterWave.gameObject.SetActive(true);
+
+        // set wave slider
+        _waveSlider.maxValue = _monsterWaves.Count;
+        _waveValue = _monsterWaves.Count;
+        _waveSlider.value = _monsterWaves.Count;
+    }
+
+    private void Update()
+    {
+        if (_waveSlider)
+            _waveSlider.value = Mathf.Lerp(_waveSlider.value, _waveValue, 5 * Time.deltaTime);
     }
 
     public void RemoveWave(MonsterWave monsterWave)
     {
         _monsterWaves.Remove(monsterWave);
+
+        // set value of the wave slider
+        _waveValue -= 1;
+        if (_waveValue < 0)
+            _waveValue = 0;
+
         if (_monsterWaves.Count > 0)
         {
             _currentMonsterWave = _monsterWaves[0];
@@ -45,7 +64,8 @@ public class EnemyManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Level Completed");
+            // player win
+            LevelCanvas.Instance.Win();
         }
     }
 

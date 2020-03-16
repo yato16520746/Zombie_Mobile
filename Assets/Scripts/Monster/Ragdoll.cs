@@ -105,8 +105,10 @@ public class Ragdoll : MonoBehaviour
         }
     }
 
-    public void SetUp_NoPushForce(Transform rigGraphic)
+    public void SetUp_NoPushForce(Transform rigGraphic, Vector3 scale)
     {
+        transform.localScale = scale;
+
         // set up the Ragdool in the right transform
         Transform[] inputRigs = rigGraphic.transform.GetComponentsInChildren<Transform>();
         Transform[] myRigs = transform.GetComponentsInChildren<Transform>();
@@ -115,6 +117,29 @@ public class Ragdoll : MonoBehaviour
         {
             myRigs[i].position = inputRigs[i].position;
             myRigs[i].rotation = inputRigs[i].rotation;
+
+
+            // if this rig have rigidbody, aplly Velocity to it
+            Rigidbody rb = myRigs[i].gameObject.GetComponent<Rigidbody>();
+            if (rb)
+            {
+                // define the Velocity of the Ragdolls
+                float x = Random.Range(-3f, 3f);
+                float y = Random.Range(-2f, 0f);
+                float z = 0;
+                if (Random.Range(-1f, 0.5f) > 0)
+                {
+                    z = Random.Range(-10f, -5f);
+                }
+                else
+                {
+                    z = Random.Range(5f, 10f);
+                }
+
+                Vector3 newDirection = new Vector3(x, y, z);
+
+                rb.velocity = newDirection.normalized * 1f;
+            }
         }
     }
 

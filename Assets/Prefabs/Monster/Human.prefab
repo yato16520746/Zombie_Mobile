@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6713888947357017659}
   m_Layer: 8
   m_Name: Human
-  m_TagString: Untagged
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,6 +50,9 @@ MonoBehaviour:
   _moveSpeed: 7
   _monsterWave: {fileID: 0}
   _maxHealth: 10
+  _deathEffecetPref: {fileID: 0}
+  _score: 10
+  _deathAudioPref: {fileID: 0}
   _animator: {fileID: 6713888948490633601}
   _eDirection: 1
 --- !u!54 &6713888947357017658

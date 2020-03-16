@@ -64,6 +64,10 @@ MonoBehaviour:
   _moveSpeed: 4
   _monsterWave: {fileID: 0}
   _maxHealth: 2
+  _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+  _score: 10
+  _deadClips:
+  - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _animator: {fileID: 4774252053536113241}
   _ragdollPref: {fileID: 3475061593217055241, guid: a8a4b1a818222dd4bad2d72ce6d338b0,
     type: 3}
@@ -71,6 +75,7 @@ MonoBehaviour:
   _shield: {fileID: 3074992596207941926}
   _shieldRagdollPref: {fileID: 3412336949054402619, guid: ff97c679f35b0a84fb3435008255045e,
     type: 3}
+  _hitClip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
 --- !u!54 &3074488987487204862
 Rigidbody:
   m_ObjectHideFlags: 0

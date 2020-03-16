@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 764296454672439292}
   m_Layer: 8
   m_Name: Space Man - Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,6 +434,10 @@ MonoBehaviour:
   _moveSpeed: 10
   _monsterWave: {fileID: 0}
   _maxHealth: 1
+  _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+  _score: 10
+  _deadClips:
+  - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _meshs:
   - {fileID: 765412691322557541}
   - {fileID: 763508963522231581}
