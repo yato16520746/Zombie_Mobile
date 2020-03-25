@@ -275,6 +275,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12afa82b64fd6ea4dac80ceaf566e03e, type: 3}
+--- !u!1 &212969486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212969487}
+  - component: {fileID: 212969488}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &212969487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212969486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &212969488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212969486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  _monsterPercents:
+  - 50
+  _minMonsterAmount: 5
+  _maxMonsterAmount: 7
+  _maxMonsterInRow: 1
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1 &277083285
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +495,60 @@ PrefabInstance:
       objectReference: {fileID: 159653174}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9de0412f5283c84d89ed581662ca2a8, type: 3}
+--- !u!1 &408269578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 408269579}
+  - component: {fileID: 408269580}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &408269579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408269578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408269580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408269578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 637fbd56f04e0974887238887430a2f1, type: 3}
+  _monsterPercents:
+  - 30
+  _minMonsterAmount: 3
+  _maxMonsterAmount: 5
+  _maxMonsterInRow: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1001 &485905009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -760,6 +868,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706542714}
   m_CullTransparentMesh: 0
+--- !u!1 &726472368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 726472369}
+  - component: {fileID: 726472370}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &726472369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726472368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &726472370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726472368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 637fbd56f04e0974887238887430a2f1, type: 3}
+  - {fileID: 6306517182704205587, guid: 66d3515470a64f24cb490c2ebebcdc7e, type: 3}
+  _monsterPercents:
+  - 80
+  - 20
+  _minMonsterAmount: 8
+  _maxMonsterAmount: 12
+  _maxMonsterInRow: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1 &751743956
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +1005,62 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &985619177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 985619178}
+  - component: {fileID: 985619179}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985619178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985619177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &985619179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985619177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  - {fileID: 8075543880010920051, guid: 0f691b3ec62762c40b1a5a256d8cfde3, type: 3}
+  _monsterPercents:
+  - 40
+  - 10
+  _minMonsterAmount: 4
+  _maxMonsterAmount: 6
+  _maxMonsterInRow: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1001 &1435913098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -970,6 +1190,170 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1f3bfedb2716a4ebf5d9f086ff3960, type: 3}
+--- !u!1 &1611303046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611303047}
+  - component: {fileID: 1611303048}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611303047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611303046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611303048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611303046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  - {fileID: 6306517182704205587, guid: f0846b536a5561d489c0d5a0e846baec, type: 3}
+  _monsterPercents:
+  - 50
+  - 10
+  _minMonsterAmount: 5
+  _maxMonsterAmount: 7
+  _maxMonsterInRow: 1
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
+--- !u!1 &1721109266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721109267}
+  - component: {fileID: 1721109268}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721109267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721109266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721109268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721109266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  _monsterPercents:
+  - 40
+  _minMonsterAmount: 6
+  _maxMonsterAmount: 8
+  _maxMonsterInRow: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
+--- !u!1 &1860355469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1860355470}
+  - component: {fileID: 1860355471}
+  m_Layer: 0
+  m_Name: Monster Wave - Random (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1860355470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860355469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7718502677627937808}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860355471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860355469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8585a00178634414a86c69ea16829bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterPrefs:
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  _monsterPercents:
+  - 30
+  _minMonsterAmount: 5
+  _maxMonsterAmount: 7
+  _maxMonsterInRow: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1001 &1894348230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1253,7 +1637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ea1704475aec4d479cab6244970a0c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _level: 7
+  _level: 6
   _levelText: {fileID: 5723269939479073212}
   _guildThePlayer: {fileID: 0}
   _enemyManager: {fileID: 7718502677627937809}
@@ -5346,18 +5730,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _monsterPrefs:
-  - {fileID: 756341673603838266, guid: 637fbd56f04e0974887238887430a2f1, type: 3}
-  - {fileID: 6306517182704205587, guid: 66d3515470a64f24cb490c2ebebcdc7e, type: 3}
+  - {fileID: 756341673603838266, guid: 993d3913e9e2a7d41bf58909607916c6, type: 3}
+  - {fileID: 6306517182704205587, guid: f0846b536a5561d489c0d5a0e846baec, type: 3}
   _monsterPercents:
-  - 50
-  - 10
-  _minMonsterAmount: 5
-  _maxMonsterAmount: 7
-  _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 9
-  _maxMoveSpeed: 13
+  - 30
+  - 40
+  _minMonsterAmount: 6
+  _maxMonsterAmount: 8
+  _maxMonsterInRow: 3
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.8
+  _minMoveSpeed: 8.4
+  _maxMoveSpeed: 10.4
 --- !u!1 &7718502677361243667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,6 +5772,13 @@ Transform:
   m_Children:
   - {fileID: 7718502675880129020}
   - {fileID: 7718502677361243664}
+  - {fileID: 408269579}
+  - {fileID: 1860355470}
+  - {fileID: 1611303047}
+  - {fileID: 212969487}
+  - {fileID: 985619178}
+  - {fileID: 1721109267}
+  - {fileID: 726472369}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5406,6 +5797,13 @@ MonoBehaviour:
   _currentMonsterWave: {fileID: 7718502677361243665}
   _monsterWaves:
   - {fileID: 7718502677361243665}
+  - {fileID: 408269580}
+  - {fileID: 1860355471}
+  - {fileID: 1611303048}
+  - {fileID: 212969488}
+  - {fileID: 985619179}
+  - {fileID: 1721109268}
+  - {fileID: 726472370}
   _isLock: 0
   _waveSlider: {fileID: 5723269939144660600}
 --- !u!1 &7718502677627937811

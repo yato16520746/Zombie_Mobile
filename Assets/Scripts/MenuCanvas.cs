@@ -15,6 +15,8 @@ public class MenuCanvas : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll();
+
         _mainMenu.SetActive(true);
         _storyMenu.SetActive(false);
 

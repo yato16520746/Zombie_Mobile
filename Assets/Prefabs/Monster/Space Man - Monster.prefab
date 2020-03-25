@@ -126,7 +126,7 @@ Transform:
   m_GameObject: {fileID: 763536304315188651}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_LocalScale: {x: 13, y: 13, z: 13}
   m_Children:
   - {fileID: 762714231271200493}
   - {fileID: 759708069043696549}
@@ -414,7 +414,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.7
+  m_Radius: 1.8
   m_Height: 4.4
   m_Direction: 1
   m_Center: {x: 0, y: 2.2, z: 0}
@@ -435,7 +435,7 @@ MonoBehaviour:
   _monsterWave: {fileID: 0}
   _maxHealth: 1
   _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
-  _score: 10
+  _score: 15
   _deadClips:
   - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _meshs:

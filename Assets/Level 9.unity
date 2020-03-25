@@ -183,10 +183,10 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 6
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1 &19782939
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,10 +239,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1001 &159653173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -531,10 +531,10 @@ MonoBehaviour:
   _minMonsterAmount: 7
   _maxMonsterAmount: 11
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1001 &345206917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -661,10 +661,10 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 9
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1 &483221046
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,10 +719,10 @@ MonoBehaviour:
   _minMonsterAmount: 9
   _maxMonsterAmount: 13
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1001 &485905009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -846,10 +846,10 @@ MonoBehaviour:
   _minMonsterAmount: 8
   _maxMonsterAmount: 12
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1 &509167304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,10 +1215,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!224 &915038935 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7090507361504329090, guid: ba1f3bfedb2716a4ebf5d9f086ff3960,
@@ -1287,10 +1287,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1 &1428467425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,10 +1343,10 @@ MonoBehaviour:
   _minMonsterAmount: 20
   _maxMonsterAmount: 24
   _maxMonsterInRow: 4
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1001 &1435913098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5860,10 +5860,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1.1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 10
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.7
+  _minMoveSpeed: 9.2
+  _maxMoveSpeed: 11.2
 --- !u!1 &7718502677361243667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5921,16 +5921,15 @@ MonoBehaviour:
   _currentMonsterWave: {fileID: 7718502677361243665}
   _monsterWaves:
   - {fileID: 7718502677361243665}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 386105658}
+  - {fileID: 13850779}
+  - {fileID: 295165553}
+  - {fileID: 486534290}
+  - {fileID: 906695753}
+  - {fileID: 19782941}
+  - {fileID: 483221048}
+  - {fileID: 1386581490}
+  - {fileID: 1428467427}
   _isLock: 0
   _waveSlider: {fileID: 5723269939144660600}
 --- !u!1 &7718502677627937811

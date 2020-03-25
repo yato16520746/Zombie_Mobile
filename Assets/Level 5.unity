@@ -260,10 +260,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1001 &205015066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -549,10 +549,10 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 6
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1 &483152454
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,10 +605,10 @@ MonoBehaviour:
   _minMonsterAmount: 12
   _maxMonsterAmount: 18
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1001 &485905009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -794,10 +794,10 @@ MonoBehaviour:
   _minMonsterAmount: 7
   _maxMonsterAmount: 11
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1 &578237007
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,10 +848,10 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 6
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1 &584888431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,10 +1169,10 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 9
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1001 &1435913098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1354,10 +1354,10 @@ MonoBehaviour:
   _minMonsterAmount: 4
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1 &1749418045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,10 +1408,10 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 6
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1001 &1894348230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5794,10 +5794,10 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 4
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.8
-  _maxTimeBetweenRows: 1
-  _minMoveSpeed: 8
-  _maxMoveSpeed: 11
+  _minTimeBetweenRows: 1.1
+  _maxTimeBetweenRows: 2
+  _minMoveSpeed: 7.6
+  _maxMoveSpeed: 9.6
 --- !u!1 &7718502677361243667
 GameObject:
   m_ObjectHideFlags: 0

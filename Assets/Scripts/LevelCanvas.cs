@@ -97,6 +97,8 @@ public class LevelCanvas : MonoBehaviour
 
     public void Win()
     {
+        AdController.instance.ShowVideoAD();
+
         if (_winCanvas)
             _winCanvas.SetActive(true);
 
@@ -140,15 +142,21 @@ public class LevelCanvas : MonoBehaviour
         {
             PlayerPrefs.SetInt("Star amount in level " + _level.ToString(), Player.Instance.Health);
         }
+
+       
     }
 
     public void Lose()
     {
+        AdController.instance.ShowVideoAD();
+
         _loseCanvas.SetActive(true);
         Time.timeScale = 0;
 
         MainAudioSource.Instance.Stop();
         MainAudioSource.Instance.Play_LoseClip();
+
+
     }
 
     #region Buttons

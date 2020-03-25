@@ -2095,7 +2095,7 @@ MonoBehaviour:
   _monsterWave: {fileID: 0}
   _maxHealth: 8
   _deathEffecetPref: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
-  _score: 10
+  _score: 20
   _deadClips:
   - {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   _animator: {fileID: 161835559577300007}
