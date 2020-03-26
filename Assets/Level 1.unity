@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.7
+      value: 11.7
       objectReference: {fileID: 0}
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
@@ -568,8 +568,8 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 2
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.3
-  _maxTimeBetweenRows: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.4
   _minMoveSpeed: 6
   _maxMoveSpeed: 8
 --- !u!114 &935017959 stripped
@@ -634,8 +634,8 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 2
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.3
-  _maxTimeBetweenRows: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.4
   _minMoveSpeed: 6
   _maxMoveSpeed: 8
 --- !u!1 &1654974551
@@ -688,8 +688,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 6
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 1.3
-  _maxTimeBetweenRows: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.4
   _minMoveSpeed: 6
   _maxMoveSpeed: 8
 --- !u!1001 &1894348230
@@ -1087,6 +1087,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5064900879510379545, guid: 01dcdf16038e36f4ea8bb639dc186c91,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01dcdf16038e36f4ea8bb639dc186c91, type: 3}
 --- !u!114 &5723269938927447644 stripped
@@ -1211,8 +1216,8 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 2
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.3
-  _maxTimeBetweenRows: 2
+  _minTimeBetweenRows: 1
+  _maxTimeBetweenRows: 1.4
   _minMoveSpeed: 6
   _maxMoveSpeed: 8
 --- !u!1 &7718502677361243667

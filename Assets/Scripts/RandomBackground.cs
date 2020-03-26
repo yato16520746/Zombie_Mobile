@@ -10,7 +10,7 @@ public class RandomBackground : MonoBehaviour
 
     [Header("Background Graphic")]
     [SerializeField] GameObject _backgroundGraphic1;
-    [SerializeField] GameObject _backgroundGraphic2;
+    //[SerializeField] GameObject _backgroundGraphic2;
 
     private void Start()
     {
@@ -20,14 +20,14 @@ public class RandomBackground : MonoBehaviour
         _audioSource.Play();
 
         // random graphic
-        int random2 = Random.Range(0, 2);
-        if (random2 == 0)
-        {
+        //int random2 = Random.Range(0, 2);
+        //if (random2 == 0)
+        //{
             Instantiate(_backgroundGraphic1);
-        }
-        else
-        {
-            Instantiate(_backgroundGraphic2);
-        }
+        //}
+        //else
+        //{
+        //    Instantiate(_backgroundGraphic2);
+        //}
     }
 }

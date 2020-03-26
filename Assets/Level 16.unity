@@ -185,8 +185,8 @@ MonoBehaviour:
   _minMonsterAmount: 9
   _maxMonsterAmount: 11
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1001 &159653173
@@ -289,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.7
+      value: 11.7
       objectReference: {fileID: 0}
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
@@ -477,8 +477,8 @@ MonoBehaviour:
   _minMonsterAmount: 8
   _maxMonsterAmount: 12
   _maxMonsterInRow: 5
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1001 &345206917
@@ -607,8 +607,8 @@ MonoBehaviour:
   _minMonsterAmount: 9
   _maxMonsterAmount: 12
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1001 &485905009
@@ -798,8 +798,8 @@ MonoBehaviour:
   _minMonsterAmount: 9
   _maxMonsterAmount: 12
   _maxMonsterInRow: 5
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &584888431
@@ -946,8 +946,8 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 5
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &623197630
@@ -1006,8 +1006,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 8
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &696805254
@@ -1062,8 +1062,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &706542714
@@ -1273,8 +1273,8 @@ MonoBehaviour:
   _minMonsterAmount: 7
   _maxMonsterAmount: 9
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!224 &915038935 stripped
@@ -1347,8 +1347,8 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 5
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &1283868849
@@ -1403,8 +1403,8 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 5
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1001 &1435913098
@@ -1588,8 +1588,8 @@ MonoBehaviour:
   _minMonsterAmount: 6
   _maxMonsterAmount: 8
   _maxMonsterInRow: 3
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &1557584682
@@ -1646,8 +1646,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1001 &1894348230
@@ -1865,8 +1865,8 @@ MonoBehaviour:
   _minMonsterAmount: 8
   _maxMonsterAmount: 10
   _maxMonsterInRow: 4
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &2026721463
@@ -1925,8 +1925,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 8
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &2063257109
@@ -1981,8 +1981,8 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 5
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &2144521409
@@ -2037,8 +2037,8 @@ MonoBehaviour:
   _minMonsterAmount: 11
   _maxMonsterAmount: 14
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &659503758118924864
@@ -6264,8 +6264,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 0.7
-  _maxTimeBetweenRows: 1.55
+  _minTimeBetweenRows: 0.64
+  _maxTimeBetweenRows: 1.04
   _minMoveSpeed: 12.4
   _maxMoveSpeed: 14.4
 --- !u!1 &7718502677361243667

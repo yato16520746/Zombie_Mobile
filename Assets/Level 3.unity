@@ -181,8 +181,8 @@ MonoBehaviour:
   _minMonsterAmount: 6
   _maxMonsterAmount: 8
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1001 &159653173
@@ -310,8 +310,8 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 4
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1001 &205015066
@@ -339,7 +339,7 @@ PrefabInstance:
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.7
+      value: 11.7
       objectReference: {fileID: 0}
     - target: {fileID: 3720643966127325337, guid: 12afa82b64fd6ea4dac80ceaf566e03e,
         type: 3}
@@ -668,8 +668,8 @@ MonoBehaviour:
   _minMonsterAmount: 3
   _maxMonsterAmount: 5
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1 &509167304
@@ -1035,8 +1035,8 @@ MonoBehaviour:
   _minMonsterAmount: 2
   _maxMonsterAmount: 4
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!224 &915038935 stripped
@@ -1236,8 +1236,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1001 &1894348230
@@ -1455,8 +1455,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1 &2098057653
@@ -1509,8 +1509,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 2
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1 &659503758118924864
@@ -5732,8 +5732,8 @@ MonoBehaviour:
   _minMonsterAmount: 5
   _maxMonsterAmount: 7
   _maxMonsterInRow: 1
-  _minTimeBetweenRows: 1.4
-  _maxTimeBetweenRows: 2.4
+  _minTimeBetweenRows: 0.9
+  _maxTimeBetweenRows: 1.3
   _minMoveSpeed: 6.8
   _maxMoveSpeed: 8.8
 --- !u!1 &7718502677361243667
