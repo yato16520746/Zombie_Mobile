@@ -18,7 +18,7 @@ public class PlayerSkillUI : MonoBehaviour
 
     void Start()
     {
-        _price = 10;
+        _price = 20;
 
         _priceText.text = _price.ToString();
         bool isInteractable = Player.Instance.Gold >= _price;
